@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORM</h1>
+
+    <form action="LIST.html" target="_blank" oninput="x.value=parseInt(y.value)+parseInt(z.value)">
+  0
+<input type="range" id="y" name="y" value="70">
+100 +
+<input type="number" id="z" name="z" value="50">
+=
+<output name="x" for="y z"></output>
+        
+        <fieldset>
+            <legend>PERSONAL INFO</legend><br>
+        <label for="firstname">first name</label>
+        <input type="text" id="firstname" > <br><br>
+        <label for="lastname">last name</label>
+
+        
+        <input type="text" id="lastname">
+        <br>
+        <br>
+        <label for="kind">which course re u studying?</label><br><br>
+        <label for="kd">HTML</label>
+         <input type="radio" id="kd" name="kd">
+        <label for="kd">CSS</label>
+         <input type="radio" id="kd" name="kd">
+        <label for="kd">JS</label>
+
+        <input type="radio" id="kd" name="kd">
+        <br>
+        <br>
+        <label for="kind">Do you agree to the terms and conditions?</label><br><br>
+         <label for="kd">i agree</label>
+         <input type="checkbox" id="kd" name="kd">
+        <label for="kd">i do not agree</label>
+         <input type="checkbox" id="kd" name="kd">
+         
+        <br>
+        <br>
+         <label for="password">password</label>
+         <input type="password" id="password" name="kd">
+        
+
+        <br>
+        <br>
+        <label for="phone no">phone number</label>
+        <input type="tel" id="phone no" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required><br>
+        
+         <input type="button" onclick="alert"><br>
+         <br>
+         <label for="favcolor"> what is ur fav color</label>
+         <input type="color" name="favcolor" id="favcolor">
+         <br>
+         <br>
+         <label for="email">Enter ur current email address</label>
+         <input type="email" name="email" id="email">
+         <br>
+         <br>
+         <label for="file">upload nin slip</label>
+         <input type="file" name="file" id="file"><br>
+         <br>
+
+         <label for="gsearch"> search google</label>
+         <input type="search" name="gsearch" id="gsearch">
+<br>
+
+<br>
+          <input type="submit">
+
+         <input type="reset">
+        </fieldset>
+    </form>
+    
+
+</body>
+</html>

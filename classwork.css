@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: rgb(243, 242, 242);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.forex{
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+}
+ul{
+    list-style: none;   
+    display: flex;
+    gap: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-right: 2px solid #f0e6e6;
+}
+
+.forex{
+    margin-left: 10rem;
+}
+.cash{
+    background-color: yellow;
+    position: relative;
+    background-position: center;
+
+}
+.money{
+    height: 600px;
+    background: linear-gradient(70deg, #e29726, #3b82f6); 
+    background: url(KAY2.jfif) no-repeat center/cover;
+    align-content: center;
+    text-align: center;
+    display: grid;
+    position: relative;
+    color: #fff;
+    }  
+.money::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+} 
+.trading, footer{
+    position: relative;
+    z-index: 2;
+
+}
+.trading h3{
+    margin: 30px;
+}
+.trading h1{
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.trading h4{
+    margin-top: 20px;
+    font-size: small;
+    font-weight: 500 ;
+}
+.learn{
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 500px;
+}
+.Donate{
+    background-color: yellow;
+    padding: 10px;
+    color: black;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    margin-right: 500px;
+}
+footer{
+    display: flex ;
+    justify-content: space-evenly;
+}
